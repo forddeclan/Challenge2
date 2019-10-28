@@ -114,6 +114,7 @@ public class PlayerScript : MonoBehaviour
                 musicSource.Stop();
                 musicSource.clip = winMusic;
                 musicSource.Play();
+                speed = 0;
                 //gameObject.SetActive(false);
             }
         }
